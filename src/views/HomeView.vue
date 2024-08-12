@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Navbar from "../components/Navbar.vue";
+import Card from "../components/AnimeNow.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <Navbar />
+  <main class="container">
+    <h3>Ongoing Anime</h3>
+    <Card />
   </main>
 </template>
